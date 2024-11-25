@@ -29,13 +29,16 @@ p{
 
 .input_box{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 12px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
 .qr_here{
     width: 100%;
+    text-align: center;
+    padding: 20px, 0px;
+    display: block;
 }
 
 .btn{
@@ -45,5 +48,6 @@ p{
     background: #bff464;
     margin-top: 15px;
     border-radius: 5px;
+    text-align: center;
 }
 
