@@ -5,7 +5,7 @@ const image = document.querySelector('#image');
 const button = document.querySelector('.btn');
 
 const qrGenerator = async (userinput)=>{
-    if(userinput != null){
+    if(userinput.length > 0){
         document.querySelector('.qr_here').style.display = 'block'
         image.src = QR_api+userinput;
     }
